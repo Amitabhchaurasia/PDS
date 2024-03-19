@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AboutUs from '../AboutUs/AboutUs';
 import Upload from '../Upload/Upload';
+import './Style.css';
 
 const Navbar = () => {
   const [uploadPageOpen, setUploadPageOpen] = useState(true);
@@ -17,10 +18,10 @@ const Navbar = () => {
   return (
     <>
       <div style={navbarStyle}>
-        <a href="/" style={navLinkStyle} onClick={toggleUploadPage}>
+        <a href="/" style={navLinkStyle} onClick={toggleUploadPage} className='button'>
           Home
         </a>
-        <a href="/" style={navLinkStyle} onClick={handleAboutUsClick}>
+        <a href="/" style={navLinkStyle} onClick={handleAboutUsClick} className='button'>
           About Us
         </a>
       </div>
