@@ -53,8 +53,15 @@ const Upload = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '20px' }}>
-      <h2 style={{ color: 'blue' }}>Image Uploader and Predictor</h2>
+    <div style={{ textAlign: 'center',
+    padding: '20px',
+    backgroundColor: '#f4f4f4',
+    borderRadius: '8px',
+    maxWidth: '600px',
+    margin: 'auto',
+    marginTop: '20px'
+    }}>
+      <h2 style={{ color: 'blue',marginBottom:'5px' }}>Image Uploader and Predictor</h2>
       <input
         type="file"
         accept="image/*"

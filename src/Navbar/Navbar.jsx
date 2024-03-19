@@ -41,7 +41,8 @@ const navbarStyle = {
 };
 
 const navLinkStyle = {
-  marginLeft: '20px',
+  marginLeft: '50px',
+  marginRight: '10px',
   color: '#ffffff',
   textDecoration: 'none',
   fontSize: '16px',

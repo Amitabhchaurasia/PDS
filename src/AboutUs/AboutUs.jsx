@@ -39,6 +39,7 @@ const aboutUsContainer = {
   borderRadius: '8px',
   maxWidth: '600px',
   margin: 'auto',
+  marginTop: '20px'
 };
 
 const headingStyle = {
